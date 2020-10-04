@@ -1,0 +1,38 @@
+.header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: sticky;
+}
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 5px 20px;
+    margin-top: 23px;
+}
+.header__option {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 10px;
+    object-fit: contain;
+    border-left: 1px solid white;
+    padding-left: 22px;
+}
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+}
+@media screen and (max-width: 640px) {
+    .header {
+        width: 640px;
+    }
+    .header__nav {
+        margin-right: 10px;
+    }
+}
