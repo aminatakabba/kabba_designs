@@ -2,14 +2,12 @@
     margin-bottom: 100px;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    background-color: pink;
 }
-/* .carousel__img {
-    width: 200px !important;
-    height: 300px !important;
-} */
 .carousel__wrapper {
-    width: 800px !important;
-    /* height: 500px !important; */
+    width: 500px !important;
+    height: 500px !important;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -18,4 +16,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+@media screen and  (min-width: 640px) {
+    .carousel__wrapper {
+        margin-left: auto;
+    margin-right: auto;
+    }
 }
