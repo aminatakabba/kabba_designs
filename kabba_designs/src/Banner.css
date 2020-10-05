@@ -1,0 +1,21 @@
+.banner {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+/* .carousel__img {
+    width: 200px !important;
+    height: 300px !important;
+} */
+.carousel__wrapper {
+    width: 800px !important;
+    /* height: 500px !important; */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
